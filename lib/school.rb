@@ -24,5 +24,6 @@ class School
       sorted[key] = value.sort
     end
     sorted
+    binding.pry
   end
 end
