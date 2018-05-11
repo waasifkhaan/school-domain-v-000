@@ -22,7 +22,7 @@ class School
     sorted = {}
     
     @roster.each do |key, value|
-      @roster.keys.sort
+      x = @roster.keys.sort
       sorted[key] = value.sort
     end
     binding.pry
