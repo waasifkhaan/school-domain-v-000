@@ -26,5 +26,6 @@ class School
     end
     
     sorted
+    binding.pry
   end
 end
