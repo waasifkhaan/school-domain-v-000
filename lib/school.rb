@@ -24,8 +24,8 @@ class School
     x.each do |key, value|
       sorted[key] = value.sort
     end
-    
-    sorted
     binding.pry
+    sorted
+    
   end
 end
